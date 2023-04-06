@@ -1,0 +1,38 @@
+.statusbar {
+  bottom: 0;
+  position: fixed;
+  min-width: calc(100vw);
+  height: 36px;
+  padding: 0 0 0 0;
+  background: #333333;
+  color: #ccc;
+}
+
+.statusbar-content {
+  margin-left: 35px;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+}
+
+.statusbar-text {
+  margin-left: 2px;
+  border: none;
+  vertical-align: middle;
+  height: 36px;
+  line-height: 36px;
+}
+
+.statusbar-button-group {
+  margin-top: 2px;
+  margin-left: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+input[type="button"] {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  flex-shrink: 1;
+}

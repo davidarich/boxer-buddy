@@ -1,0 +1,4 @@
+{
+    // Ignores header warning caused by LICENSE file
+    "MD041": false
+}
